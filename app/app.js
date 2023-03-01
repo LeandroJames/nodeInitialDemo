@@ -26,7 +26,7 @@ app.post('/upload', (req, res) => {
 });
 
 app.post('/time', (req, res) => {
-    if (req.header())
+    //if (req.header())
     res.json({time: new Date()})
 })
 
